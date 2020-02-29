@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Тег form, атрибут autocomplete</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>форма 1</legend>
+            <p>Заблокированное поле <input type="text" name="first_name" placeholder="Заблокированное"
+                    disabled="disabled">
+            </p>
+            <p>Имя питомца <input type="text" placeholder="Тузик"></p>
+            <p>Электронная почта <input type="email" placeholder="alexbolder@gmail.com"></p>
+            <p>Ваша кличка <input type="checkbox">Жорик
+                <input type="checkbox"> Махмед
+                <input type="checkbox">Кирпич</p>
+            <p>Социальные сети
+                <input type="radio" name="kontact" id="soc1">
+                <label for="soc1">Контакт</label>
+                <input type="radio" name="facebook" id="soc2">
+                <label for="soc2">Фейсбук</label>
+                <input type="radio" name="instagram" id="soc3">
+                <label for="soc3">Инстаграм</label>
+                <input type="radio" name="viber" id="soc4">
+                <label for="soc4">Вайбер</label>
+
+            </p>
+            <p>Пароль: <input name="pass" type="password"></p>
+            <p><input type="submit" value="Отправить"></p>
+        </fieldset>
+        <fieldset>
+            <legend>форма 2</legend>
+            <label for="type of food">Вид еды</label><br>
+            <select name="tasty" id="type of foood">
+                <option value="apple">яблоко</option>
+                <option value="grapes">виноград</option>
+                <option value="lemon">лемон</option>
+                <option value="tomato">помидор</option>
+                <option hidden disabled selected>выбрать</option>
+            </select><br>
+            <br>Дата рождения
+            <input type="date" name="dateBirth" id="birth">
+
+
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
